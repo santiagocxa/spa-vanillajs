@@ -1,0 +1,56 @@
+.Beer-inner {
+  padding: 0;
+  margin: 0;
+  padding-top: 8%;
+  padding-bottom: 7%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Beers-card {
+  padding-top: 2%;
+}
+
+.Beers-card h2 {
+  text-transform: uppercase;
+  font-family: 'Hind', sans-serif;
+  color: #d54fff;
+  padding-bottom: 3%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Beers-card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Beers-card-content img {
+  width: 24%;
+}
+
+.Details {
+  text-align: justify;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Details p {
+  text-transform: uppercase;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.8rem;
+}
+
+.Details span {
+  text-transform: none;
+}
+
+@media (min-width: 768px) {
+  .Details p {
+    font-size: 1.3rem;
+  }
+}

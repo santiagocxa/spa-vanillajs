@@ -8,19 +8,23 @@ const Beer = async () => {
   const details = beer[0]
 
   const view = `
-    <div class="Beer-inner">
-      <article class="Beers-card">
-        <img src="${details.image_url}" atl=${details.name}>
-        <h2>Name: ${details.name}<h2>
-      </article>
-      <article>
-        <h3>Description: <span>${details.description}</span></h3>
-        <h3>First Mix: <span>${details.first_brewed}</span></h3>
-        <h3>ABV Level: <span>${details.abv}</span></h3>
-        <h3>Bitterness Level: <span>${details.ibu}</span></h3>
-        <h3>Accompanying Foods: <span>${details.food_pairing}</span></h3>
-        <h3>Brewers Tips: <span>${details.brewers_tips}</p><span></h3>
-      </article>
+    <div class="Container">
+      <div class="row Beer-inner">
+        <article class="col-12 col-lg-6 mt-2 Beers-card">
+          <h2>${details.name}</h2>
+          <div class="Beers-card-content">
+            <img src="${details.image_url}" atl=${details.name}>
+          </div>
+        </article>
+        <article class="col-12 col-lg-6 Details">
+          <p>Description: <span>${details.description}</span></p>
+          <p>First Mix: <span>${details.first_brewed}</span></p>
+          <p>ABV Level: <span>${details.abv}</span></p>
+          <p>Bitterness Level: <span>${details.ibu}</span></p>
+          <p>Accompanying Foods: <span>${details.food_pairing}</span></p>
+          <p>Brewers Tips: <span>${details.brewers_tips}</p><span></p>
+        </article>
+      </div>
     </div>
   `
   return view

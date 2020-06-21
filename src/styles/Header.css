@@ -1,0 +1,29 @@
+.Header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+.Header-main {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+.Header-main a {
+  color: gold;
+  text-transform: uppercase;
+}
+
+.Header-logo {
+  font-size: 5vw;
+}
+
+.Header-nav {
+  font-size: 3vw;
+}

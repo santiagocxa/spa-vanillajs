@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap");
+@import './Header.css';
+@import '../styles/Home.css';
+@import './Beer.css';
+@import './About.css';
+@import './Footer.css';
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
