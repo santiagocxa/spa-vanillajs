@@ -1,22 +1,21 @@
-import getHash from '../utils/getHash'
-import getData from '../utils/getData'
-
+import getHash from '../utils/getHash';
+import getData from '../utils/getData';
 
 const Beer = async () => {
-  const id = await getHash()
-  const beer = await getData(id)
-  const details = beer[0]
+  const id = await getHash();
+  const beer = await getData(id);
+  const details = beer[0];
 
   const view = `
-    <div class="Container">
-      <div class="row Beer-inner">
-        <article class="col-12 col-lg-6 mt-2 Beers-card">
+    <div class="beer">
+      <div class="beer__inner">
+        <article class="beer__card">
           <h2>${details.name}</h2>
-          <div class="Beers-card-content">
+          <div class="beer__card-content">
             <img src="${details.image_url}" atl=${details.name}>
           </div>
         </article>
-        <article class="col-12 col-lg-6 Details">
+        <article class="beer__details">
           <p>Description: <span>${details.description}</span></p>
           <p>First Mix: <span>${details.first_brewed}</span></p>
           <p>ABV Level: <span>${details.abv}</span></p>
@@ -26,8 +25,8 @@ const Beer = async () => {
         </article>
       </div>
     </div>
-  `
-  return view
-}
+  `;
+  return view;
+};
 
-export default Beer
+export default Beer;

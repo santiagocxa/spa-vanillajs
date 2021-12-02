@@ -1,15 +1,15 @@
 const Header = () => {
   const view = `
-    <div class="Header-main">
-      <div class="Header-logo">
-        <a href="/">Beer Compani API</a>
+    <div class="header__container">
+      <div class="header__logo">
+        <a href="#/">Beer Compani API</a>
       </div>
-      <div class="Header-nav">
+      <nav class="header__nav">
         <a href="#/about/">About</a>
-      </div>
+      </nav> 
     </div>
-  `
-  return view
-}
+  `;
+  return view;
+};
 
-export default Header
+export default Header;

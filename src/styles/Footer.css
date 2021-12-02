@@ -1,17 +1,28 @@
-#footerContainer {
+.Footer {
+  padding: 0;
+  margin: 0;
   background-color: black;
   height: 180px;
-  display: flex;
+  padding-top: 20px;
   align-items: center;
   text-align: center;
 }
 
-#footerContainer div {
+.footer__container div {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-#footerContainer  a {
+.footer__container ul {
+  padding: 0;
+}
+
+.footer__container li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer__container a {
   text-decoration: none;
   color: gold;
   font-family: 'Varela Round', sans-serif;
