@@ -1,25 +1,26 @@
-import getData from '../utils/getData'
-
+import getData from '../utils/getData';
 
 const Home = async () => {
   const Beers = await getData();
   const view = `
-  <div class="container-fluid">
-    <div class="row Beers">
-      ${Beers.map(beer =>`
-        <article class="col-12 col-md-4 col-lg-3 Beer-item">
+  <div class="home">
+    <div class="home__list">
+      ${Beers.map(
+        (beer) => `
+        <article class="home__item">
           <a href="#/${beer.id}/">
-            <div class="item-img mb-3">
-            <img src="${beer.image_url}" alt="${beer.name}">
-            </div>
-            <h2 class="mb-3">${beer.name} </h2>
+           
+              <img class="home__item-img" src="${beer.image_url}" alt="${beer.name}">
+            
+            <h2 class="home__item-title">${beer.name} </h2>
           </a>
         </article>
-      `).join('')}
+      `
+      ).join('')}
     </div>
   </div>
-  `
-  return view
-}
+  `;
+  return view;
+};
 
-export default Home
+export default Home;

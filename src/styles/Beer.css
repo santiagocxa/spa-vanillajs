@@ -20,6 +20,8 @@
 
 .beer__card h2 {
   font-family: 'Hind', sans-serif;
+  font-size: 1.2rem;
+  color: #3178c6;
 }
 
 .beer__card-content {
@@ -33,21 +35,20 @@
   width: 250px;
   height: 300px;
   object-fit: contain;
+  margin: 20px 0 20px 0;
 }
 
 .beer__details {
   text-align: justify;
-  padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .beer__details p {
-  text-transform: uppercase;
   font-family: 'Varela Round', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .beer__details span {
-  text-transform: none;
+  text-transform: uppercase;
 }

@@ -1,9 +1,7 @@
 .Footer {
-  padding: 0;
-  margin: 0;
-  background-color: black;
-  height: 180px;
-  padding-top: 20px;
+  padding: 10px 10px 0 10px;
+  background-color: #3178c6;
+  padding-bottom: 5px;
   align-items: center;
   text-align: center;
 }
@@ -24,8 +22,7 @@
 
 .footer__container a {
   text-decoration: none;
-  color: gold;
+  color: white;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-size: 0.9rem;
 }

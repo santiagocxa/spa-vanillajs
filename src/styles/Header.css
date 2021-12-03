@@ -11,7 +11,7 @@
 
 .header__container {
   width: 90%;
-  background-color: white;
+  background-color: #3178c6;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .Header a {
-  color: black;
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
 }
