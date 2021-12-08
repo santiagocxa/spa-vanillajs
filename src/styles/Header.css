@@ -1,29 +1,57 @@
 .Header {
   position: fixed;
-  display: block;
   width: 100%;
   z-index: 2;
+  background: #d5eff7;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Header-main {
-  background-color: black;
+.header__container {
+  width: 90%;
+  background-color: #3178c6;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 6vw;
+  border-radius: 5px;
+  height: 100%;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
 }
 
-.Header-main a {
-  color: gold;
+.Header a {
+  color: white;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
-.Header-logo {
-  font-size: 5vw;
+.Header a:hover {
+  color: rgb(182, 179, 255);
 }
 
-.Header-nav {
-  font-size: 3vw;
+.header__logo {
+  font-size: 1.2rem;
+}
+
+.header__nav {
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .Header {
+    height: 7vh;
+  }
+  .header__container {
+    width: 100%;
+    border-radius: 0px;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Header {
+    height: 60px;
+  }
 }

@@ -1,20 +1,37 @@
-#footerContainer {
-  background-color: black;
-  height: 180px;
-  display: flex;
+.Footer {
+  padding: 10px 10px 0 10px;
+  background-color: #3178c6;
+  padding-bottom: 5px;
   align-items: center;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
-#footerContainer div {
+.footer__container div {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-#footerContainer  a {
+.footer__container ul {
+  padding: 0;
+}
+
+.footer__container li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer__container a {
   text-decoration: none;
-  color: gold;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
+  color: white;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer__container ul {
+    display: flex;
+    justify-content: space-around;
+  }
 }

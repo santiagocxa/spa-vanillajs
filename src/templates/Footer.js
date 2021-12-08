@@ -1,25 +1,23 @@
 const Footer = () => {
   const view = `
-    <footer id="footerContainer" class="pt-3 pb-3">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-md">
-            <a href="https://punkapi.com/documentation/v2">About API</a>
-          </div>
-          <div class="col-12 col-md">
-            <a href="#">Politicas</a>
-          </div>
-          <div class="col-12 col-md">
-            <a href="#">Pivacidad</a>
-          </div>
-          <div class="col-12 col-md">
-            <a href="#">Contacto</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  `
-  return view
-}
+    <section class="footer__container">
+      <ul>
+        <li>
+          <a href="https://punkapi.com/documentation/v2">About API</a>
+        </li>
+        <li>
+          <a href="#">Politicas</a>
+        </li>
+        <li>
+          <a href="#">Pivacidad</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+    </section>
+  `;
+  return view;
+};
 
-export default Footer
+export default Footer;

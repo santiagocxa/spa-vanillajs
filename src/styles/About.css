@@ -1,19 +1,17 @@
-.About{
-  padding-top: 15%;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-bottom: 7%;
+.About {
+  padding-top: 15vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
-.About li{
-  padding-top: 3%;
-  padding-bottom: 3%;
+.About li {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .About a {
   text-decoration: none;
-  font-family: 'Varela Round', sans-serif;
-  color:#d54fff;
+  color: #d54fff;
 }
