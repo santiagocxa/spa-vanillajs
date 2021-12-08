@@ -7,12 +7,11 @@
 }
 
 .About li {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .About a {
   text-decoration: none;
-  font-family: 'Varela Round', sans-serif;
   color: #d54fff;
 }

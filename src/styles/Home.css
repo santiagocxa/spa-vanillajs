@@ -61,3 +61,28 @@
   font-size: 1.2rem;
   color: #3178c6;
 }
+
+@media only screen and (min-width: 768px) {
+  .home__list {
+    margin-top: 20vh;
+  }
+  .home__item {
+    width: 33%;
+    height: 280px;
+  }
+  .home__item-img {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .home__item {
+    width: 25%;
+    height: 250px;
+  }
+
+  .home__item-img {
+    max-width: 200;
+    object-fit: contain;
+  }
+}

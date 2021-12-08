@@ -19,9 +19,9 @@
 }
 
 .beer__card h2 {
-  font-family: 'Hind', sans-serif;
   font-size: 1.2rem;
   color: #3178c6;
+  font-weight: bold;
 }
 
 .beer__card-content {
@@ -45,7 +45,6 @@
 }
 
 .beer__details p {
-  font-family: 'Varela Round', sans-serif;
   font-size: 0.9rem;
 }
 
